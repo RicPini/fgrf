@@ -1,0 +1,20 @@
+{
+  "model_name": "Qwen2ForCausalLM",
+  "timestamp": "2026-09-05T16:22:14.273149",
+  "processed_layers": 20,
+  "skipped_layers": 0,
+  "H_total": 9.891142669717524,
+  "baseline_perplexity": 99.0816650390625,
+  "final_perplexity": 12.566555976867676,
+  "config": {
+    "k_UV": 100.0,
+    "k_IR": 1.0,
+    "num_steps": 100,
+    "alpha": 0.001,
+    "k_B": 1.38e-23,
+    "T": 300.0,
+    "a": 0.01,
+    "max_layers_to_process": 20,
+    "output_dir": "./fgrf_results"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "timestamp": "2026-09-05T13:49:16.126348",
+  "inputs": 10,
+  "layers": 25,
+  "results": [
+    {
+      "text": "The theory of relativity fundamentally changed our understan",
+      "baseline": 8.158902168273926,
+      "fgrf": 3.5871715545654297,
+      "random": 9491711.0,
+      "gd": 1.0404313802719116
+    },
+    {
+      "text": "Photosynthesis converts light energy into chemical energy in",
+      "baseline": 5.451082229614258,
+      "fgrf": 2.061472177505493,
+      "random": 7847351.5,
+      "gd": 48.82765197753906
+    },
+    {
+      "text": "The human brain contains approximately 86 billion neurons an",
+      "baseline": 4.205646514892578,
+      "fgrf": 3.0428147315979004,
+      "random": 972768.0,
+      "gd": 1.3220866918563843
+    },
+    {
+      "text": "A transformer neural network uses attention mechanisms to pr",
+      "baseline": 57.966209411621094,
+      "fgrf": 5.395022392272949,
+      "random": 10809482.0,
+      "gd": 1.6782348155975342
+    },
+    {
+      "text": "The PyTorch framework provides automatic differentiation for",
+      "baseline": 23.579647064208984,
+      "fgrf": 4.991140365600586,
+      "random": 3798478.75,
+      "gd": 1.6764003038406372
+    },
+    {
+      "text": "Recursive algorithms solve problems by reducing them to smal",
+      "baseline": 6.649566173553467,
+      "fgrf": 3.0084455013275146,
+      "random": 956340.4375,
+      "gd": 1.3830779790878296
+    },
+    {
+      "text": "In the quiet hours of dawn, the city slowly awakened to the ",
+      "baseline": 33.18135070800781,
+      "fgrf": 11.5909423828125,
+      "random": 1263962.0,
+      "gd": 1.9578078985214233
+    },
+    {
+      "text": "The old library contained thousands of forgotten stories wai",
+      "baseline": 84.29072570800781,
+      "fgrf": 8.88178825378418,
+      "random": 3384896.5,
+      "gd": 3.1943607330322266
+    },
+    {
+      "text": "She traced the constellations with her finger, connecting an",
+      "baseline": 29.163597106933594,
+      "fgrf": 14.042278289794922,
+      "random": 28116816.0,
+      "gd": 1.5577151775360107
+    },
+    {
+      "text": "Entropy is a measure of disorder that increases in isolated ",
+      "baseline": 10.64936637878418,
+      "fgrf": 3.497391700744629,
+      "random": 2372038.5,
+      "gd": 2.5040106773376465
+    }
+  ],
+  "summary": {
+    "fgrf_mean": -64.36876852197236,
+    "fgrf_std": 17.9215753195898,
+    "random_mean": 45907288.143874414,
+    "random_std": 49350087.76685503,
+    "gd_mean": 0.9279236311899837,
+    "gd_std": 265.09674831441504
+  }
+}
