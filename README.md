@@ -1,5 +1,5 @@
 # Fractal Graph Rewriting Framework (FGRF)
-A scale-dependent, single-pass weight transformation for optimizing LLMs without retraining.
+Exploratory weight rewriting inspired by scale-dependent geometry.
 **DOI: [10.6084/m9.figshare.33440932](https://doi.org/10.6084/m9.figshare.33440932)**
 
 ## License
