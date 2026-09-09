@@ -32,5 +32,5 @@ For full details, see the [new paper](paper/fgrf_paper_v2.pdf).
 Install the required dependencies:
 
 ```bash
-pip install transformers accelerate bitsandbytes datasets pandas scikit-learn psutil
+pip install -r requirements.txt
 
