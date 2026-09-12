@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-09-11T18:48:11.024857",
+  "config": {
+    "k_UV": 100.0,
+    "k_IR": 1.0,
+    "num_steps": 100,
+    "alpha": 0.001,
+    "max_layers_to_process": 20,
+    "k_B": 1.38e-23,
+    "T": 300.0,
+    "a": 0.01,
+    "use_thermo": true,
+    "thermo_relative_threshold": 0.04,
+    "use_scale_duality": true,
+    "duality_strength": 0.04,
+    "use_robust_ode": true,
+    "use_fast_hausdorff": false,
+    "svd_skip_threshold": 10000,
+    "eval_max_length": 128,
+    "batch_size": 4,
+    "ablation_mode": "random",
+    "random_noise_std": 1e-05,
+    "seed": 42,
+    "output_dir": "./fgrf_results",
+    "save_model": true,
+    "dtype": "float32",
+    "device": "auto"
+  },
+  "ablation_components": {
+    "use_fractal": false,
+    "use_thermo": false,
+    "use_duality": false,
+    "use_random": true
+  },
+  "processed_layers": 20,
+  "skipped_layers": 0,
+  "thermo_rejections": 0,
+  "thermo_accepts": 0,
+  "total_updates": 20,
+  "H_total": 0.001075667998533545,
+  "elapsed_time": 393.92217326164246,
+  "baseline": {
+    "mean_perplexity": 56.58508305549621,
+    "std_perplexity": 174.15656287218658,
+    "mean_loss": 2.7997898757457733,
+    "std_loss": 1.1131900531358656,
+    "n_samples": 20
+  },
+  "final": {
+    "mean_perplexity": 56.8336844921112,
+    "std_perplexity": 175.23629242302644,
+    "mean_loss": 2.8003120183944703,
+    "std_loss": 1.114264469519546,
+    "n_samples": 20
+  },
+  "improvement_percent": 0.439340941447718,
+  "layer_stats": [
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 0.00014760674966857664,
+      "H_step": 8.022620536962764e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 0.00012206325308054178,
+      "H_step": 1.1408699947979483e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 0.0001350728416442871,
+      "rel_change": 0.011658937655559531,
+      "H_step": 2.0984990197387004e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 6.691218852996826e-05,
+      "rel_change": 0.004987858387414122,
+      "H_step": 3.5911397026498065e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 4.7686510086059576e-05,
+      "rel_change": 0.0020367117466983105,
+      "H_step": 9.915247001258953e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 8.626054763793946e-05,
+      "rel_change": 0.004635579651289038,
+      "H_step": 0.00032447956747066797
+    },
+    {
+      "method": "random",
+      "noise_std": 5.6342206001281744e-05,
+      "rel_change": 0.003043158713517946,
+      "H_step": 0.00013836521823116732
+    },
+    {
+      "method": "random",
+      "noise_std": 1.2003327608108522e-05,
+      "rel_change": 0.0001225652724599852,
+      "H_step": 1.2449226433922413e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 1.398643430472077e-05,
+      "H_step": 8.349545960271632e-10
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 0.0003447897912680115,
+      "H_step": 8.040789178643486e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 0.00024361330720768052,
+      "H_step": 1.1442568130362596e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 9.752183914184571e-05,
+      "rel_change": 0.008234913017769031,
+      "H_step": 1.0900284557289198e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 5.640916347503662e-05,
+      "rel_change": 0.0037068277177306863,
+      "H_step": 2.553217429363333e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 4.0739188194274906e-05,
+      "rel_change": 0.0017220751259959515,
+      "H_step": 7.232496560082069e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 7.790466785430909e-05,
+      "rel_change": 0.004474242856698685,
+      "H_step": 0.0002643994586056042
+    },
+    {
+      "method": "random",
+      "noise_std": 4.302895069122315e-05,
+      "rel_change": 0.002481545727382661,
+      "H_step": 8.082306396152428e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 1.3567072101284252e-05,
+      "H_step": 9.338438632669695e-10
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 9.706728327232215e-06,
+      "H_step": 9.005802765475106e-10
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 0.00038499052364499855,
+      "H_step": 8.048032979727452e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 1.1462203264236451e-05,
+      "rel_change": 0.00030716596931213596,
+      "H_step": 1.5083732466726098e-07
+    }
+  ],
+  "generations_before": {
+    "prompt_0": "The future of artificial intelligence will be shaped by how we learn and teach children.\nWith the power to help us communicate, understand information, interact in a social environment and make decisions that impact our daily lives, artificial intelligence has already made its mark on classrooms across the globe.\nBut it",
+    "prompt_1": "In the year 2050, humanity has successfully colonized all planets in our galaxy. On this day, a new planet called \"Zephyr\" is discovered with a unique property: it can only support a maximum of one inhabitant per square kilometer. However, due to the advanced",
+    "prompt_2": "The most important scientific discovery of the century was the invention of the internal combustion engine. This breakthrough in technology enabled humans to propel themselves from a place on Earth into outer space.\nThis technological advancement came about as scientists were driven by curiosity and desire for knowledge, rather than profit or money. But"
+  },
+  "generations_after": {
+    "prompt_0": "The future of artificial intelligence will be a major concern to many people, especially those who have been working in the field for some time. AI is an exciting and transformative technology that promises to revolutionize various industries from healthcare to transportation.\nHowever, with all these benefits come challenges as well",
+    "prompt_1": "In the year 2050, humanity has achieved a remarkable progress in space exploration. The first lunar landing lasted for 13 days, and it took another 8 years to reach Mars. After that, the journey to Jupiter took 6 years less than Jupiter's distance from Earth and Saturn",
+    "prompt_2": "The most important scientific discovery of the century is probably quantum mechanics. Scientists are still working on it, and they predict that in a few years there will be an even more revolutionary development - a theory that explains everything in terms of elementary particles.\nNow, physicists hope to make it possible to build"
+  },
+  "duality_stats": {
+    "D_values": [],
+    "duality_factors": [],
+    "improvements": []
+  },
+  "entropy_tracking": {
+    "before": [],
+    "after": []
+  }
+}

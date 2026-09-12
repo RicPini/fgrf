@@ -22,7 +22,7 @@ def main():
     print("\n[1] Loading model...")
     model = AutoModelForCausalLM.from_pretrained(
         "Qwen/Qwen2.5-0.5B",
-        dtype=torch.float32,
+        torch_dtype=torch.float32,
         low_cpu_mem_usage=True,
         trust_remote_code=True
     )

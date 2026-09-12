@@ -22,7 +22,7 @@ def main():
     print("\n[1] Loading model...")
     model = AutoModelForCausalLM.from_pretrained(
         "gpt2",
-        dtype=torch.float32,
+        torch_dtype=torch.float32,
         low_cpu_mem_usage=True
     )
     tokenizer = AutoTokenizer.from_pretrained("gpt2")

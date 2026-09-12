@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-09-11T14:58:48.840579",
+  "config": {
+    "k_UV": 100.0,
+    "k_IR": 1.0,
+    "num_steps": 100,
+    "alpha": 0.001,
+    "max_layers_to_process": 20,
+    "k_B": 1.38e-23,
+    "T": 300.0,
+    "a": 0.01,
+    "use_thermo": true,
+    "thermo_relative_threshold": 0.04,
+    "use_scale_duality": true,
+    "duality_strength": 0.04,
+    "use_robust_ode": true,
+    "use_fast_hausdorff": false,
+    "svd_skip_threshold": 10000,
+    "eval_max_length": 128,
+    "batch_size": 4,
+    "ablation_mode": "random",
+    "random_noise_std": 1e-05,
+    "seed": 42,
+    "output_dir": "./fgrf_results",
+    "save_model": true,
+    "dtype": "float32",
+    "device": "auto"
+  },
+  "ablation_components": {
+    "use_fractal": false,
+    "use_thermo": false,
+    "use_duality": false,
+    "use_random": true
+  },
+  "processed_layers": 20,
+  "skipped_layers": 0,
+  "thermo_rejections": 0,
+  "thermo_accepts": 0,
+  "total_updates": 20,
+  "H_total": 0.00012609389534561048,
+  "elapsed_time": 797.0171239376068,
+  "baseline": {
+    "mean_perplexity": 53.023607683181766,
+    "std_perplexity": 59.58072647553754,
+    "mean_loss": 3.538944458961487,
+    "std_loss": 0.8887386285425107,
+    "n_samples": 20
+  },
+  "final": {
+    "mean_perplexity": 53.02398204803467,
+    "std_perplexity": 59.56907405638257,
+    "mean_loss": 3.539008903503418,
+    "std_loss": 0.8887164940086631,
+    "n_samples": 20
+  },
+  "improvement_percent": 0.0007060342916296391,
+  "layer_stats": [
+    {
+      "method": "random",
+      "noise_std": 1.141287922859192e-05,
+      "rel_change": 0.00030390427592177536,
+      "H_step": 1.3654294219624109e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 3.417040586471558e-05,
+      "rel_change": 0.0006430038004013633,
+      "H_step": 1.152433796981455e-08
+    },
+    {
+      "method": "random",
+      "noise_std": 2.391739368438721e-05,
+      "rel_change": 0.00014260566538099257,
+      "H_step": 1.7992247263926148e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1.667193651199341e-05,
+      "rel_change": 0.0003967427588263006,
+      "H_step": 2.9159812887966442e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1.1858439445495606e-05,
+      "rel_change": 5.7707779206249134e-05,
+      "H_step": 1.502067645671447e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 2.1695122718811036e-05,
+      "rel_change": 0.00021273096241948558,
+      "H_step": 1.974381331994124e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1.733147978782654e-05,
+      "rel_change": 0.00020809429016793848,
+      "H_step": 1.2607021460695478e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 2.7464528495340633e-05,
+      "H_step": 1.0296928177577414e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 1.8962641954422e-05,
+      "rel_change": 0.0001879136850953728,
+      "H_step": 1.1318333899779654e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 0.00011116254769239936,
+      "H_step": 1.0504179188214423e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1.3762359619140627e-05,
+      "rel_change": 3.555286772653121e-05,
+      "H_step": 1.9705770409946207e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 2.1811647415161136e-05,
+      "rel_change": 0.000206395458085207,
+      "H_step": 1.99596946399172e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1.0235227346420289e-05,
+      "rel_change": 0.00012926976115710363,
+      "H_step": 4.389089304182026e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 3.418085682772052e-05,
+      "H_step": 1.043347251398829e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 2.2625532150268557e-05,
+      "rel_change": 0.00019735883212333052,
+      "H_step": 1.6076763571935132e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 0.00014120701872728575,
+      "H_step": 1.047069301764493e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 3.807510852813721e-05,
+      "rel_change": 8.909276460977828e-05,
+      "H_step": 1.5755086576255525e-08
+    },
+    {
+      "method": "random",
+      "noise_std": 1.631838321685791e-05,
+      "rel_change": 0.00015301426362774735,
+      "H_step": 1.1153837642565722e-05
+    },
+    {
+      "method": "random",
+      "noise_std": 1.2397571802139283e-05,
+      "rel_change": 0.0001516419227556806,
+      "H_step": 6.440392910214144e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 2.8048299588863435e-05,
+      "H_step": 9.782918068659274e-10
+    }
+  ],
+  "generations_before": {
+    "prompt_0": "The future of artificial intelligence will be defined by a number at least as important to our business model as the price and value we can extract from it.\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 It is no accident that Google's main competitor in AI has been Facebook, which this year raised $1 billion for",
+    "prompt_1": "In the year 2050, humanity has reached a level of GDP equivalent to about $1.3 trillion and by 2080 global incomes will be roughly equal (although not exactly). If we are lucky our economy can expand at this pace; if not, it may collapse in an unexpected way",
+    "prompt_2": "The most important scientific discovery of the century is probably that we have a single, singular mechanism for creating these molecules,\" says study co-author Thomas Gao of MIT.\n \"It means this new molecule works in virtually zero degrees Celsius.\"\n\nGao and his colleagues designed an artificial"
+  },
+  "generations_after": {
+    "prompt_0": "The future of artificial intelligence will, no doubt forever be dominated by the machines that are now on our screens, and we'll never know how far down it goes. But if AI continues to advance in leaps and bounds without a drop being thrown over us like a grenade, I think",
+    "prompt_1": "In the year 2050, humanity has reached its greatest number of solar flares.\nLunar climate models predict that by then Earth's heat capacity will have been depleted to less than one quarter of what it was in 2000. The consequences are dire: not only does global warming become more",
+    "prompt_2": "The most important scientific discovery of the century is out. The last major piece to be taken down from a building was this week's announcement that an enormous meteorite has landed in Egypt, one that will weigh more than 400 pounds and possibly shatter any records anyone had set for extraterrestrial impacts."
+  },
+  "duality_stats": {
+    "D_values": [],
+    "duality_factors": [],
+    "improvements": []
+  },
+  "entropy_tracking": {
+    "before": [],
+    "after": []
+  }
+}

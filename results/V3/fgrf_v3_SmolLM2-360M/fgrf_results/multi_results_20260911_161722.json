@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-09-11T16:17:22.713696",
+  "config": {
+    "k_UV": 100.0,
+    "k_IR": 1.0,
+    "num_steps": 100,
+    "alpha": 0.001,
+    "max_layers_to_process": 20,
+    "k_B": 1.38e-23,
+    "T": 300.0,
+    "a": 0.01,
+    "use_thermo": true,
+    "thermo_relative_threshold": 0.04,
+    "use_scale_duality": true,
+    "duality_strength": 0.04,
+    "use_robust_ode": true,
+    "use_fast_hausdorff": false,
+    "svd_skip_threshold": 10000,
+    "eval_max_length": 128,
+    "batch_size": 4,
+    "ablation_mode": "random",
+    "random_noise_std": 1e-05,
+    "seed": 42,
+    "output_dir": "./fgrf_results",
+    "save_model": true,
+    "dtype": "float32",
+    "device": "auto"
+  },
+  "ablation_components": {
+    "use_fractal": false,
+    "use_thermo": false,
+    "use_duality": false,
+    "use_random": true
+  },
+  "processed_layers": 20,
+  "skipped_layers": 0,
+  "thermo_rejections": 0,
+  "thermo_accepts": 0,
+  "total_updates": 20,
+  "H_total": 3.032188175377364e-05,
+  "elapsed_time": 354.8707456588745,
+  "baseline": {
+    "mean_perplexity": 23.95028908252716,
+    "std_perplexity": 17.704272710305307,
+    "mean_loss": 2.924045038223267,
+    "std_loss": 0.721909753850563,
+    "n_samples": 20
+  },
+  "final": {
+    "mean_perplexity": 23.95136103630066,
+    "std_perplexity": 17.707834866060626,
+    "mean_loss": 2.9240398943424224,
+    "std_loss": 0.7219660218025691,
+    "n_samples": 20
+  },
+  "improvement_percent": 0.004475744613382167,
+  "layer_stats": [
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 7.124728830920236e-05,
+      "H_step": 9.216676804570112e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 4.4024114267070345e-05,
+      "H_step": 3.056467602545552e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 3.286679744720459e-05,
+      "rel_change": 0.0007663808507429496,
+      "H_step": 3.31552728113374e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 2.1175334453582765e-05,
+      "rel_change": 0.0004426587921229359,
+      "H_step": 4.125974746421179e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 5.664033623269928e-05,
+      "H_step": 2.4588688130053674e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 5.73564560698099e-05,
+      "H_step": 2.4515775511080305e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1.2417899370193482e-05,
+      "rel_change": 7.003541231513675e-05,
+      "H_step": 3.792203430802478e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 2.5599982738494873e-05,
+      "rel_change": 0.0006863741314724622,
+      "H_step": 6.009212694406456e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 3.1702070236206054e-05,
+      "rel_change": 0.0003258025890146186,
+      "H_step": 9.833014648229271e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 4.433025790757296e-05,
+      "H_step": 9.214575783444371e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 3.722075599042526e-05,
+      "H_step": 3.066281963372275e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 2.1379256248474123e-05,
+      "rel_change": 0.00019943292904057904,
+      "H_step": 1.4064546141251757e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1.3574191331863404e-05,
+      "rel_change": 0.00010821325127383513,
+      "H_step": 1.6972481685451155e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 5.339889595879404e-05,
+      "H_step": 2.4581182316331385e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 5.9834827722981685e-05,
+      "H_step": 2.456886008028736e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 5.9167783316320686e-05,
+      "H_step": 2.457888699275747e-06
+    },
+    {
+      "method": "random",
+      "noise_std": 1.0788446664810181e-05,
+      "rel_change": 7.279356324959905e-05,
+      "H_step": 1.089320871084168e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 1.4379078149795533e-05,
+      "rel_change": 0.00010577041036262695,
+      "H_step": 2.0192697205087336e-09
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 4.829038559498861e-05,
+      "H_step": 9.196668720060173e-07
+    },
+    {
+      "method": "random",
+      "noise_std": 1e-05,
+      "rel_change": 4.212231846650162e-05,
+      "H_step": 3.0711630436145453e-07
+    }
+  ],
+  "generations_before": {
+    "prompt_0": "The future of artificial intelligence will be in using them for good.\n\nWe\u2019ve already seen an impressive amount of progress over the last decade, and that rate is only going to continue as we build on our experience with AI today. What used to take months now takes weeks",
+    "prompt_1": "In the year 2050, humanity has become intergalactic and is in a space race.\u00a0\n\nThe leaders of Earth and Mars hold an important meeting where they discuss strategies to protect their planet from other invading species that can cause global disasters. However, all of them are unaware of",
+    "prompt_2": "The most important scientific discovery of the century is that our sun was born from a cloud of dust and gas around 4.6 billion years ago, which later condensed into planets. It's no wonder that one scientist has called this period in history \"the birth of humanity.\"\n\nIt"
+  },
+  "generations_after": {
+    "prompt_0": "The future of artificial intelligence will be driven by the ability to create and use more AI that is intelligent, adaptive, and collaborative.\n\nArtificial Intelligence (AI) has arrived in many ways for consumers: from virtual assistants like Siri on smart phones, personal robots like Alexa or K",
+    "prompt_1": "In the year 2050, humanity has evolved to a point where we can travel in space. The only problem? There is no place left on Earth for us to go and live!\n\nThat's when NASA asks you to pick one of two different jobs:\n\n1) You will",
+    "prompt_2": "The most important scientific discovery of the century was that life on Earth began in a warm,\u00a0irradiated ocean. This is especially exciting because this is also the only place we know for certain where life begins and ends.\u201d\n\nIn other words, scientists have figured out how living things"
+  },
+  "duality_stats": {
+    "D_values": [],
+    "duality_factors": [],
+    "improvements": []
+  },
+  "entropy_tracking": {
+    "before": [],
+    "after": []
+  }
+}
