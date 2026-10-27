@@ -2,7 +2,11 @@
 
 A scale-dependent, single-pass weight transformation for analyzing and probing the structural integrity of LLMs.
 
-**Version:** 3.0.0
+**V4 (Separate Paper):**
+**DOI (Preprint):** [10.6084/m9.figshare.34767876](https://doi.org/10.6084/m9.figshare.34767876)
+**Code & Data:** [See GitHub Repository](https://github.com/RicPini/family-resolved-training-effects)
+
+**Version 3:**
 **DOI (Original Paper):** [10.6084/m9.figshare.33440932](https://doi.org/10.6084/m9.figshare.33440932)
 **Release Notes:** [See GitHub Releases](https://github.com/RicPini/fgrf/releases)
 
