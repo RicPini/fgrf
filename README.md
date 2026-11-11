@@ -2,6 +2,8 @@
 
 A scale-dependent, single-pass weight transformation for analyzing and probing the structural integrity of LLMs.
 
+**V5 (separate paper):** *Dynamic Activation Geometry and a Runtime Thermodynamic Gate* — data and code at [github.com/RicPini/fgrf-dynamic-geometry](https://github.com/RicPini/fgrf-dynamic-geometry), preprint at [DOI 10.6084/m9.figshare.34937449](https://doi.org/10.6084/m9.figshare.34937449)
+
 **V4 (Separate Paper):**
 **DOI (Preprint):** [10.6084/m9.figshare.34767876](https://doi.org/10.6084/m9.figshare.34767876)
 **Code & Data:** [See GitHub Repository](https://github.com/RicPini/family-resolved-training-effects)
